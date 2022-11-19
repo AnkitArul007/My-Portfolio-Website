@@ -350,6 +350,17 @@ section:nth-child(2n){
     box-shadow: 2px -1px 5px 2px rgb(77, 77, 77);
 }
 
+.fiftyOne-percent {
+    width: 51%;
+    height: 100%;
+    border-bottom-left-radius: 2rem;
+    border-top-left-radius: 2rem;
+    background-color: rgba(92, 249, 254, 0.842);
+    display: grid;
+    place-items: center;
+    box-shadow: 2px -1px 5px 2px rgb(77, 77, 77);
+}
+
 /*skills section*/
 .certification-section{
     display: flex;
@@ -433,6 +444,11 @@ section:nth-child(2n){
     color: orange;
     font-weight: 600;
     font-size: 1.5rem;
+}
+
+.desc > p{
+    font-weight: 300;
+    color: gray;
 }
 
 
@@ -663,7 +679,7 @@ button:hover{
 
     .about-me{
         font-size: 22px;
-        width: 90%;
+        width: 85%;
     }
 
     .skill-section{

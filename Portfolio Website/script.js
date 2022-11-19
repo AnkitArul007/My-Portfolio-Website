@@ -34,7 +34,7 @@ function initialBars(){
 
 
 function fillBars(){
-    for (let i=0; i<skillSec.length; i++){
+    for (let i=0; i<=skillSec.length; i++){
         let targetWidth = skillSec[i].getAttribute('target-width');
         let currentWidth = 0;
         let interval = setInterval(()=>{
